@@ -33,7 +33,7 @@ module InertiaRails
       res = JSON.parse(Net::HTTP.post(uri, page.to_json, 'Content-Type' => 'application/json').body)
 
       @controller.inertia_headers = res['head']
-      @render_method.call html: res['body'].html_safe, layout: layout, locals: (view_data).merge({page: page})
+      @render_method.call template: 'inertia_ssr', layout: layout, locals: (view_data).merge({page: page, html: res['body'].html_safe,})
     end
 
     def layout
