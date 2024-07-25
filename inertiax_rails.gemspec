@@ -3,13 +3,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "inertia_rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "inertia_rails"
+  spec.name          = "inertiax_rails"
   spec.version       = InertiaRails::VERSION
-  spec.authors       = ["Brian Knoles", "Brandon Shar", "Eugene Granovsky"]
-  spec.email         = ["brain@bellawatt.com", "brandon@bellawatt.com", "eugene@bellawatt.com"]
+  spec.authors       = ["Brian Knoles", "Brandon Shar", "Eugene Granovsky", "Stefan Buhrmester"]
+  spec.email         = ["brain@bellawatt.com", "brandon@bellawatt.com", "eugene@bellawatt.com", "stefan@buhrmi.de"]
 
   spec.summary       = %q{Inertia adapter for Rails}
-  spec.homepage      = "https://github.com/inertiajs/inertia-rails"
+  spec.homepage      = "https://github.com/buhrmi/inertia-rails"
   spec.license       = "MIT"
 
   spec.metadata["homepage_uri"] = spec.homepage

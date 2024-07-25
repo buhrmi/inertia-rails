@@ -1,7 +1,9 @@
 ![image](https://user-images.githubusercontent.com/6599653/114456558-032e2200-9bab-11eb-88bc-a19897f417ba.png)
 
 
-# Inertia.js Rails Adapter
+# Inertia X Rails Adapter
+
+This is a fork of the original [Inertia Rails](https://github.com/inertiajs/inertia-rails) adapter. It is designed to be compatible with buhrmi's [Inertia X](https://github.com/buhrmi/inertia) branch.
 
 ## Installation
 
@@ -9,7 +11,7 @@
 
 Just add the inertia rails gem to your Gemfile
 ```ruby
-gem 'inertia_rails'
+gem 'inertiax_rails'
 ```
 
 ### Frontend
