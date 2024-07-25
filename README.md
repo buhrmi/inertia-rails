@@ -11,7 +11,7 @@ This is a fork of the original [Inertia Rails](https://github.com/inertiajs/iner
 
 Just add the inertia rails gem to your Gemfile
 ```ruby
-gem 'inertiax_rails'
+gem 'inertiax_rails', require: "inertia_rails"
 ```
 
 ### Frontend
